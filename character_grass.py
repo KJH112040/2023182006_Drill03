@@ -44,6 +44,25 @@ def run_left():
     
     pass
 
+def run_up():
+    print('UP')
+
+    pass
+
+def run_down():
+    print('DOWN')
+
+    pass
+
+def run_triangle():
+    print('TRIANGLE')
+
+    run_up()
+    run_down()
+    run_bottom()
+
+    pass
+
 def run_rectangle():
     print('RECTANGLE')
 
@@ -67,7 +86,8 @@ def run_circle():
     pass
 
 while True:
-    run_rectangle()
+    run_triangle()
+    #run_rectangle()
     #run_circle()
     break
 
