@@ -46,6 +46,11 @@ def run_left():
 
 def run_up():
     print('UP')
+    
+    y = 0
+    for x in range(0,800//2,10):
+        y += 10
+        draw_boy(x,y)
 
     pass
 
