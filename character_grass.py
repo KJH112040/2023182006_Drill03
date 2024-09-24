@@ -57,6 +57,11 @@ def run_up():
 def run_down():
     print('DOWN')
 
+    y = 800//2
+    for x in range(800//2,800,10):
+        y -= 10
+        draw_boy(x,y)
+
     pass
 
 def run_triangle():
