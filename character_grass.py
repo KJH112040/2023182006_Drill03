@@ -15,9 +15,8 @@ def run_rectangle():
 def run_circle():
     print('CIRCLE')
 
-    r = 300
-    cx = 800 // 2
-    cy = 600 // 2
+    r,cx,cy = 300,800//2,600//2
+
     for d in range(0, 360):
         x = r * math.cos(math.radians(d)) + cx
         y = r * math.sin(math.radians(d)) + cy
